@@ -49,7 +49,7 @@ def question3():# recheck the question
     # string "yes" or "no"
     answers["(a)"] = "yes"
     answers["(b)"] = "no"
-    answers["(c)"] = "Yes"# recheck
+    answers["(c)"] = "Yes"
 
     # explain-string: explanation in english prose
     answers["(a) example"] = "It is impossible for a vertebrate to have both warm and cold blood.A vertebrate is not able to live in the water or the air.A vertebrate that gives birth does not meet any of the requirements in R1, R2, or R4.Therefore, no vertebrate can simultaneously meet the requirements of more than one rule. It is true that the rules are mutually exclusive."
@@ -65,13 +65,13 @@ def question7():
     answers["(a)"] = "True"
     answers["(b)"] = "True"
     answers["(c)"] = "False"
-    answers["(d)"] = "True"#recheck
+    answers["(d)"] = "False"
 
     # explain_string: explanation in english prose
     answers["(a) explain"] = "Using the calculus chain rule, the gradients of weights at the kth layer are used to calculate the gradients of weights at the (k+1)th layer in the back-propagation method."
     answers["(b) explain"] = "Applying an ANN model to a test instance and computing the activations at nodes in the (k+1)th layer using the activations at nodes in the kth layer and the related weights is known as the forward propagation phase."
     answers["(c) explain"] = "Even if the training mistakes might not always disappear to zero, the vanishing gradient problem describes the state in which the gradients of the loss function with respect to the weights become extremely tiny, making it challenging for the model to learn during training."
-    answers["(d) explain"] = "The gradients of the loss with respect to the weights at all layers will be zero if the ANN model correctly classifies every training instance at a certain backpropagation algorithm iteration. This is because the gradients, which show how the loss changes in relation to the weights, will be 0 and the loss function will be reduced."
+    answers["(d) explain"] = "Perfect classification does not imply gradients are 0; it indicates no error in classification but not necessarily the global minimum of the loss function."
     return answers
 
 # -----------------------------------------------------------
