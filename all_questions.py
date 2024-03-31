@@ -118,7 +118,7 @@ def question9():
 
     # explain_string
     answers["(a) explain"] = "a smaller K like 1 should work well due to the clear separation between classes."
-    answers["(b) explain"] = "K=5 provides a balance that reduces variance without noticeably raising bias, making it appropriate for datasets with some degree of overlap or noise."
+    answers["(b) explain"] = "k= 5 Taking into account the overlap between classes, k= 5 looks like a good decision to balance between bias and variance. It's possible that k = 1 ,because it is too sensitive to noise, while k = 50  would probably oversmooth the border, leading to an inadequate fit."
 
  
     return answers
