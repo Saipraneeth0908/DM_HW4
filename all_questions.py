@@ -47,7 +47,7 @@ def question3():# recheck the question
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = "yes"
+    answers["(a)"] = "no"
     answers["(b)"] = "no"
     answers["(c)"] = "Yes"
 
