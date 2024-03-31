@@ -141,8 +141,8 @@ def question10():
     # type: float
     # note: R is the sample (A=1,B=1,C=1)
     answers["(b) P(+|R)"] = 0.857
-    answers["(b) P(R|+)"] = 0.192#recheck
-    answers["(b) P(R|-)"] = 0.032#recheck
+    answers["(b) P(R|+)"] = 0.192
+    answers["(b) P(R|-)"] = 0.032
 
     # string, '+' or '-'
     answers["(b) class label"] = "+"
